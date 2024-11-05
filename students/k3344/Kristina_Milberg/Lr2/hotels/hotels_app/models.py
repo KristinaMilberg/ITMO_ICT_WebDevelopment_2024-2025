@@ -78,4 +78,3 @@ class Booking(models.Model):
 
     def __str__(self):
         return f"Booking: {self.guest.user.username} - {self.room.room_type} from {self.check_in} to {self.check_out}"
-

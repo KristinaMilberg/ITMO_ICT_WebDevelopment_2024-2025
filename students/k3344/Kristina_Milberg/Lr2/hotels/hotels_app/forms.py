@@ -18,4 +18,3 @@ class GuestForm(forms.ModelForm):
     class Meta:
         model = Guest
         fields = ['user', 'phone_number']  # Поля, которые нужно заполнить
-

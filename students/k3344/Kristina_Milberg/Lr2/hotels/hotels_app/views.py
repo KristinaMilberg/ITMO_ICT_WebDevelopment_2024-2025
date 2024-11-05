@@ -80,4 +80,3 @@ def guest_list(request):
     guests = Guest.objects.all()  # Получаем всех гостей из базы данных
     return render(request, 'guest_list.html', {'guests': guests})
 
-

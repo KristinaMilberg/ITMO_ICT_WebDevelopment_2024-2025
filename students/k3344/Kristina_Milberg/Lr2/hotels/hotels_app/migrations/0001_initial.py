@@ -69,4 +69,3 @@ class Migration(migrations.Migration):
             field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reservations', to='hotels_app.room'),
         ),
     ]
-

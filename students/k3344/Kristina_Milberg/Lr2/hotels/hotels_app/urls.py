@@ -13,4 +13,3 @@ urlpatterns = [
     path('rooms/<int:pk>/delete/', views.RoomDeleteView.as_view(), name='room_delete'),  # Удаление номера
     path('register/', views.register, name='register'),  # URL для регистрации
 ]
-
