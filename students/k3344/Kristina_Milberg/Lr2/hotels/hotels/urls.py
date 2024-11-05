@@ -21,3 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),  # маршрут для админ-панели
     path('', include('hotels_app.urls')),  # подключаем маршруты из urls.py приложения
 ]
+
